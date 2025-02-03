@@ -15,7 +15,7 @@ function generate_uuid()
   );
 }
 $reference_id = generate_uuid();
-$secodary_key = "9ca287c8d46e4455a8faab803dd2e4d2";
+$secodary_key = "ac790831127840419d8c6aa88017e600";
 // Set the request URL and data
 $url = 'https://sandbox.momodeveloper.mtn.com/v1_0/apiuser';
 $data = array(
@@ -41,7 +41,7 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTPHEADER => $headers
 ));
 // Execute the cURL request
-$response = curl_exec($curl);
+echo $response = curl_exec($curl);
 // Check for errors
 // if (curl_errno($curl)) {
 //   $error_msg = curl_error($curl);
