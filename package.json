@@ -1,0 +1,16 @@
+{
+  "name": "mtn-momo-api-php",
+  "version": "1.0.0",
+  "description": "Momo API is a payment gateway that allows you to receive payments from your customers. This API is used to integrate Momo API into your website or application. This API is used to integrate Momo API into your website or application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:42901/git/ZakariaZemam/MTN-MOMO-API-PHP"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
